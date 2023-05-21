@@ -1,0 +1,93 @@
+.field {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    }
+
+
+    h1, h1 {
+        font-size: calc(1.375rem + 1.5vw);
+        display: block;
+        text-align: center;
+      }
+
+      .h2, h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    *{box-sizing:border-box;}
+
+    .frm{
+        width:1080px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color:#ccc;
+    }
+    
+    .frm label{
+        width:100px;
+        font-weight:bold;
+        display:inline-block;
+    }
+    
+    .frm input[type="text"],
+    .frm input[type="email"]{
+        width:180px;
+        padding:3px 10px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+    
+    .frm input[type="submit"]{
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color:#000;
+    } 
+    
+    .frm input[type="submit"]:hover{
+        cursor:pointer;
+    }
+    
+
+
+
+
+
+
+
+    .styled-table { border-collapse: collapse;
+         margin: auto; 
+         font-size: 1em; 
+         font-family: sans-serif;
+          min-width: 450px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    }
+
+    .styled-table thead tr { background-color: #980081;
+         color: #ffffff;
+          text-align: middle;
+         }
+
+    .styled-table th, .styled-table td { 
+        padding: 12px 15px; 
+    }
+
+    .styled-table tbody tr {
+         border-bottom: 1px solid #dddddd;
+         } 
+    .styled-table tbody tr:nth-of-type(even) {
+         background-color: #f3f3f3; 
+        }
+     .styled-table tbody tr:last-of-type { 
+        border-bottom: 2px solid #009879; 
+    }
